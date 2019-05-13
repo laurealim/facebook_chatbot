@@ -1,8 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
-const PAGE_ACCESS_TOKEN = 'EAADjZCCRtF8cBAFb9TlKh2U4rggNdGUGvZBPASVUbMGQTKiKoJamWa2RvzveMNhgRtWqrjU51dPlHXpb3afoMWXWZAVr7QozjBinnL3KPc25bY0ecknmVVTzIEAMt4cUUgRac1A41ZCfUet64N2LkYq5mrYMm20ZCp5JlF9PjoAZDZD';
-const API_AI_TOKEN = '0f9842062bbb4b85a5bd4e91f1c4c21d';
+const PAGE_ACCESS_TOKEN = '**********'; // use your own PAGE_ACCESS_TOKEN
+const API_AI_TOKEN = '**********'; // user your own API_AI_TOKEN
 const apiaiApp  = require('apiai')(API_AI_TOKEN);
 const app = express();
 app.use(bodyParser.json());
